@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hahmlet', serif;
+}
+
+body {
+  background-color: #586994;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+ /* box-shadow: 3px 3px 1px 0px #00000060;*/
+  width: 500px;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #E5E8B6
+}
+
+.label-float input{
+  width: 95%;
+  padding: 15px 15px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 1px solid #0d009c;
+  background-color:#E5E8B6;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  border-radius: 12px;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 35px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.label-float input:focus{
+  border-bottom: 5px solid #4038a0;
+}
+
+.label-float label{
+  color: #E5E8B6;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #E5E8B6
+}
+
+button{
+  background-color: transparent;
+  border-color: #E5E8B6;
+  color: #E5E8B6;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: #E5E8B6 3px solid;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #586994;
+  color: #E5E8B6;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #0d009c;
+}
+
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess{
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+

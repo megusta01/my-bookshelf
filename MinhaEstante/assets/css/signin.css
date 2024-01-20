@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hahmlet', serif;
+}
+
+body {
+  background-color: #7D869C;
+  background-image: url("../images/ImagemLogin.jpg");
+  background-attachment: fixed;
+  background-position: right top;
+  background-repeat: no-repeat;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content:flex-start;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.card {
+  background-color: #7D869C;
+  padding: 30px;
+  border-radius: 0%;
+ 
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #E5E8B6
+}
+
+.label-float input{
+  width: 100%;
+  padding: 12px 12px;
+  display: inline-block;
+  border:1;
+  border-bottom: 2px solid #000000;
+  background-color:#E5E8B6;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 12px;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 35px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #000000;
+}
+
+.label-float label{
+  color: #E5E8B6;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #E5E8B6
+}
+
+button{
+  background-color: transparent;
+  border-color: #586994;
+  color: #586994;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #586994;
+  color: #E5E8B6;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p{
+  color: #272262;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a{
+  color: #1E0043;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+a:hover{
+  color: #272262;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #272262;
+}
+
+ #msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
