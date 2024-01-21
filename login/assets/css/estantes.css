@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #B4C4AE
+    ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% da altura da viewport (janela do navegador) */
+
+}
+
+.titulo-estantes{
+    color: #000000; 
+    font-family: 'Arial', sans-serif;
+}
+  #nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  background-color: #E3E2E9;
+  padding: 15px 0px;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+  }
+  .navbar-brand {
+    text-decoration: none; /* Remove a decoração de texto (sublinhado) do link */
+    color: #000000; /* Cor do texto da marca */
+    font-size: 24px; /* Tamanho da fonte da marca */
+    font-weight: bold; /* Peso da fonte da marca */
+  }
+  
+  .navbar-brand,
+.estante-btn {
+  margin-right: 20px; /* Adiciona um pequeno espaçamento entre os elementos */
+}
+
+  .find {
+    font-weight: lighter;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 300;
+    color: #f39c12; /* Cor específica para a parte 'Books' da marca */
+  }
+  
+  .estante-btn {
+    position: center;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 600;
+    text-decoration: none; 
+    color: #000000; 
+
+  }
+
+.estante-lendo {
+	position: center;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 600;
+	color:var(--secondary-color);
+	text-decoration: none;
+
+}
+
+.estante-ler {
+	position: center;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 600;
+	color:var(--secondary-color);
+	text-decoration: none;
+    margin-left: 15px;
+}
+
+  .navbar-brand:hover,
+  .estante-btn:hover,
+  .estante-lendo:hover,
+  .estante-ler:hover{
+    color: #586994; /* Cor de destaque quando o mouse passa por cima */
+  }
+
+  .container {
+
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+
+  .livro-card {
+      display: flex;
+      align-items: center;
+      background-color: #E3E2E9;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 15px 0;
+      padding: 15px;
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .livro-card:hover {
+    transform: scale(1.05);
+  }
+
+  .livro-info {
+    flex: 1; /* Ocupa todo o espaço disponível */
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+
+  img {
+    min-width: 100px;
+    max-width: 110px; /*Ajuste a largura máxima conforme necessário */
+
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 15px; /* Adiciona um espaço entre a capa e as informações */
+  }
+
+  .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transition: background-color 0.2s ease-in-out; */
+  }
+
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
