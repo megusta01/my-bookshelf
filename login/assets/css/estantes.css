@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500;600;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+	font-family: 'Hahmlet', serif;
     background-color: #B4C4AE
     ;
     margin: 0;
@@ -14,7 +16,7 @@ body {
 
 .titulo-estantes{
     color: #000000; 
-    font-family: 'Arial', sans-serif;
+    font-family: 'Hahmlet', serif;
 }
   #nav {
   position: fixed;
@@ -24,6 +26,29 @@ body {
   z-index: 100;
   background-color: #E3E2E9;
   padding: 15px 0px;
+}
+
+#logado {
+	font-family: 'Hahmlet', serif;
+	position: absolute;
+	top: 50%; 
+	right: 80px; 
+	transform: translateY(-50%); 
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sair {
+	border-radius: 5px;
+	background: #e66;
+	position: absolute;
+	top: 50%; 
+	right: 20px; 
+	transform: translateY(-50%); 
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .container-fluid {
@@ -45,7 +70,7 @@ body {
   .find {
     font-weight: lighter;
 	font-size: 1.5rem;
-	font-family: sans-serif;
+	font-family: 'Hahmlet', serif;
 	font-weight: 300;
     color: #f39c12; /* Cor específica para a parte 'Books' da marca */
   }
@@ -53,7 +78,7 @@ body {
   .estante-btn {
     position: center;
 	font-size: 1.5rem;
-	font-family: sans-serif;
+	font-family: 'Hahmlet', serif;
 	font-weight: 600;
     text-decoration: none; 
     color: #000000; 
@@ -63,7 +88,7 @@ body {
 .estante-lendo {
 	position: center;
 	font-size: 1.5rem;
-	font-family: sans-serif;
+	font-family: 'Hahmlet', serif;
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
@@ -73,7 +98,7 @@ body {
 .estante-ler {
 	position: center;
 	font-size: 1.5rem;
-	font-family: sans-serif;
+	font-family: 'Hahmlet', serif;
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
