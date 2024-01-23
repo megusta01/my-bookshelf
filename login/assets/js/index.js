@@ -1,7 +1,7 @@
-// if (localStorage.getItem("token") == null) {
-//   alert("Você precisa estar logado para acessar essa página");
-//   window.location.href = "./assets/html/singin.html";
-//
+if (localStorage.getItem("token") == null) {
+  alert("Você precisa estar logado para acessar essa página");
+  window.location.href = "./assets/html/singin.html";
+}
 
 //tem que tirar esse commit de cima dps
 
