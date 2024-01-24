@@ -92,7 +92,7 @@ body {
     font-family: 'Hahmlet', serif;
     font-weight: 600;
     text-decoration: none;
-    color: #000000;
+    color: #1E0043;
     margin-left: 85px;
 }
 
@@ -103,9 +103,10 @@ body {
     font-size: 1.5rem;
     font-family: 'Hahmlet', serif;
     font-weight: 600;
-    color: var(--secondary-color);
+   color: #1E0043;
     text-decoration: none;
     margin-left: 75px;
+
 }
 
 /* Efeito de hover para marca e botões das estantes */
