@@ -112,7 +112,6 @@ body {
     color: #586994;
 }
 
-<<<<<<< HEAD
 .find {
     font-weight: lighter;
     font-size: 1.5rem;
@@ -120,10 +119,6 @@ body {
     font-weight: 300;
     color: #f39c12;
 }
-=======
-
-
->>>>>>> e112fbc9eb5f8a60dfb8a88931e6e32904292aa4
 /* Estilo para o container */
 .container {
   display: grid;
