@@ -39,7 +39,8 @@ html {
 }
 .text {
 	position: center;
-	font-size: 1.5rem;
+	font-size: 2.0rem;
+	margin: 15px;
 	font-family: 'Hahmlet', serif;
 	font-weight: 600;
 	color:var(--secondary-color);
@@ -83,6 +84,17 @@ html {
 	background-color: #c0c2c1;
 }
 
+.navbar-brand {
+	display: inline-block;
+  }
+
+  .navbar-brand img {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px; 
+	margin-top: -15px;
+  }
+
 .estante-btn {
 	position: center;
 	font-size: 1.5rem;
@@ -90,6 +102,7 @@ html {
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
+	
 }
 
 .estante-lendo {
@@ -99,6 +112,7 @@ html {
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
+	
 }
 
 .estante-ler {
@@ -108,6 +122,18 @@ html {
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
+}
+
+.estante-btn,
+.estante-lendo,
+.estante-ler {
+    text-align: center; /* Para centralizar o texto dentro do contêiner */
+    margin-bottom: 50px; /* Ajuste a margem inferior conforme necessário */
+    font-size: 1.5rem;
+    font-family: 'Hahmlet', serif;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-decoration: none;
 }
 
 .estante-btn:hover {
@@ -129,7 +155,7 @@ html {
 }
 
 .header {
-	margin-top: 4rem;
+	margin-top:12rem;
 	text-align: center;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2s; /* Firefox < 16 */

@@ -66,7 +66,8 @@ body {
   
   .navbar-brand,
 .estante-btn {
-  margin-right: 20px; /* Adiciona um pequeno espaçamento entre os elementos */
+  margin-right: 35px; /* Adiciona um pequeno espaçamento entre os elementos */
+  
 }
 
   .find {
@@ -74,7 +75,7 @@ body {
 	font-size: 1.5rem;
 	font-family: 'Hahmlet', serif;
 	font-weight: 300;
-    color: #f39c12; /* Cor específica para a parte 'Books' da marca */
+  color: #f39c12; /* Cor específica para a parte 'Books' da marca */
   }
   
   .estante-btn {
@@ -82,9 +83,9 @@ body {
 	font-size: 1.5rem;
 	font-family: 'Hahmlet', serif;
 	font-weight: 600;
-    text-decoration: none; 
-    color: #000000; 
-
+    text-decoration: none;
+    color: #000000;
+    margin-left: 85px;
   }
 
 .estante-lendo {
@@ -94,6 +95,7 @@ body {
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
+    margin-left: 75px;
 
 }
 
@@ -104,7 +106,7 @@ body {
 	font-weight: 600;
 	color:var(--secondary-color);
 	text-decoration: none;
-    margin-left: 15px;
+    margin-left: 75px;
 }
 
   .navbar-brand:hover,
@@ -118,7 +120,7 @@ body {
     margin-top: 20px;
 
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px;
   }
   
 
@@ -173,4 +175,9 @@ body {
 
   .remove-btn:hover {
     background-color: #c82333;
+  }
+
+  
+  .sair:hover {
+    background-color: #c0c2c1;
   }

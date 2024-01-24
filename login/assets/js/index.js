@@ -3,13 +3,15 @@ if (localStorage.getItem("token") == null) {
   window.location.href = "./assets/html/singin.html";
 }
 
+//tem que tirar esse commit de cima dps
+
 const userLogado = JSON.parse(localStorage.getItem("userLogado"));
 
 const logado = document.querySelector("#logado");
-logado.innerHTML = `Olá ${userLogado.nome}`;
+logado.innerHTML = `Olá, ${userLogado.nome}`;
 
 function sair() {
   localStorage.removeItem("token");
   localStorage.removeItem("userLogado");
-  window.location.href = "./assets/html/signin.html";
+  window.location.href = "../../assets/html/signin.html";
 }
