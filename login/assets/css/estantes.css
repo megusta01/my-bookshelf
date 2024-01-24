@@ -4,7 +4,7 @@
 /* Estilo básico para o corpo da página */
 body {
     font-family: 'Hahmlet', serif; /* Define a fonte padrão para o corpo */
-    background-color: #1E0043; /* Cor de fundo */
+    background-color: #7D869C; /* Cor de fundo */
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,7 +17,7 @@ body {
 /* Estilo para o título das estantes */
 .titulo-estantes {
     margin-top: 80px;
-    color: #ffffff; /* Cor do texto */
+    color: #E5E8B6; /* Cor do texto */
     font-family: 'Hahmlet', serif; /* Define a fonte para o título das estantes */
 }
 
@@ -28,9 +28,20 @@ body {
     width: 100%;
     height: auto;
     z-index: 100;
-    background-color: #ffffff; /* Cor de fundo da barra de navegação */
+    background-color: #7D869C; /* Cor de fundo da barra de navegação */
     padding: 15px 0px;
+    border: 1px solid #000;
 }
+.navbar-brand {
+	display: inline-block;
+  }
+
+  .navbar-brand img {
+	width: 80px;
+	height: 60px;
+	/* margin-top: -5px; Move a imagem 5 pixels para cima */
+	 margin-right: 5px; /* Ajuste conforme necessário para dar espaço entre a imagem e o texto */
+  } 
 
 /* Estilo para informações do usuário logado */
 #logado {
@@ -69,6 +80,7 @@ body {
     color: #000000;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 60px;
 }
 
 /* Estilo para a marca e botões das estantes com margem à direita */
@@ -92,7 +104,7 @@ body {
     font-family: 'Hahmlet', serif;
     font-weight: 600;
     text-decoration: none;
-    color: #1E0043;
+    color: #000000;
     margin-left: 85px;
 }
 
@@ -103,7 +115,7 @@ body {
     font-size: 1.5rem;
     font-family: 'Hahmlet', serif;
     font-weight: 600;
-   color: #1E0043;
+   color: #000000;
     text-decoration: none;
     margin-left: 75px;
 

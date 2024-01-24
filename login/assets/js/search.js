@@ -132,22 +132,22 @@ function search(e) {
 
           // Botoes
           const addToLidos = document.createElement("button"); //add a lidos
-          addToLidos.classList.add("add-to-shelf-btn", "btn", "btn-outline-primary");
-          addToLidos.textContent = "Add a lidos";
+          addToLidos.classList.add("add-to-lidos-btn", "btn", "btn-outline-primary");
+          addToLidos.textContent = "Adicionar à lidos";
           addToLidos.addEventListener("click", (e) => {
             adicionarNaEstante1(res.items[i].volumeInfo);
           });
         
           const addToLendo = document.createElement("button"); //add a lendo
           addToLendo.classList.add("add-to-shelf-btn", "btn", "btn-outline-primary");
-          addToLendo.textContent = "Add a lendo";
+          addToLendo.textContent = "Adicionar à lendo";
           addToLendo.addEventListener("click", (e) => {
             adicionarNaEstante2(res.items[i].volumeInfo);
           });
         
           const addToQrLer = document.createElement("button"); //add a quero ler
           addToQrLer.classList.add("add-to-shelf-btn", "btn", "btn-outline-primary");
-          addToQrLer.textContent = "Add a quero ler ";
+          addToQrLer.textContent = "Adicionar à quero ler ";
           addToQrLer.addEventListener("click", (e) => {
             adicionarNaEstante3(res.items[i].volumeInfo);
           });

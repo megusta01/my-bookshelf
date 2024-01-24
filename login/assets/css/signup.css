@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #586994;
+  background-color: #7D869C;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed
@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-  background-color: #ffffff80;
+  background-color: #E5E8B6;
   padding: 30px;
   border-radius: 4%;
  /* box-shadow: 3px 3px 1px 0px #00000060;*/
@@ -35,7 +35,7 @@ h1{
   text-align: center;
   font-size: 40px;
   margin-bottom: 20px;
-  color: #E5E8B6
+  color: #000000
 }
 
 .label-float input{
@@ -43,8 +43,8 @@ h1{
   padding: 15px 15px;
   display: inline-block;
   border: 0;
-  border-bottom: 1px solid #0d009c;
-  background-color:#E5E8B6;
+  border-bottom: 1px solid #000000;
+  background-color:#a3a3a3;
   outline: none;
   min-width: 180px;
   font-size: 16px;
@@ -62,11 +62,11 @@ h1{
 }
 
 .label-float input:focus{
-  border-bottom: 5px solid #4038a0;
+  border-bottom: 5px solid #000000;
 }
 
 .label-float label{
-  color: #E5E8B6;
+  color: #000000;
   pointer-event: none;
   position: absolute;
   top: 0;
@@ -79,26 +79,26 @@ h1{
 .label-float input:valid + label{
   font-size: 13px;
   margin-top: 0;
-  color: #E5E8B6
+  color: #000000;
 }
 
 button{
   background-color: transparent;
-  border-color: #E5E8B6;
-  color: #E5E8B6;
+  border-color: #000000;
+  color: #000000;
   padding: 7px;
   font-weight: bold;
   font-size: 12pt;
   margin-top: 20px;
   border-radius: 6px;
-  border: #E5E8B6 3px solid;
+  border: #2d3000 2px solid;
   cursor: pointer;
   outline: none;
   transition: all .4s ease-out;
 }
 
 button:hover{
-  background-color: #586994;
+  background-color: #B4C4AE;
   color: #E5E8B6;
 }
 
