@@ -84,17 +84,6 @@ html {
 	background-color: #c0c2c1;
 }
 
-.navbar-brand {
-	display: inline-block;
-  }
-
-  .navbar-brand img {
-	width: 50px;
-	height: 50px;
-	margin-right: 5px; 
-	margin-top: -15px;
-  }
-
 .estante-btn {
 	position: center;
 	font-size: 1.5rem;
@@ -553,6 +542,3 @@ h1 {
 	-webkit-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 }
-
-
-
