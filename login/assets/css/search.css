@@ -11,6 +11,7 @@ html {
 	font-family: 'Hahmlet', serif;
 	background-color: #7D869C;
 	transition: background 500ms;
+	opacity: 1;
 }
 
 
@@ -201,7 +202,7 @@ html {
 
 .search {
 	margin: 0 auto;
-	width: 50%;
+	width: 40%;
 	font-family: 'Hahmlet', serif;
 }
 
@@ -231,6 +232,7 @@ html {
 	background-color: #E5E8B6;
 	border-radius: 25px;
 	width: 100%;
+	margin-top: 30px;
 }
 
 .search-form input{
@@ -248,9 +250,9 @@ html {
 	position: absolute;
 	margin-left: 12px;
     padding-left: 3px;
-	top:50%;
+	top:70%;
 	color: #000000;
-	transform: translateY(-50%);
+	transform: translateY(-90%);
 	transition: .1s ease,top .3s ease,transform .1s ease-in-out;
 }
 
