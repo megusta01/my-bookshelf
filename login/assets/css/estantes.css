@@ -7,7 +7,6 @@ body {
     background-color: #7D869C; /* Cor de fundo */
     margin: 0;
     padding: 0;
- 
     flex-direction: column;
     align-items: center;
 
@@ -17,13 +16,14 @@ body {
 /* Estilo para o título das estantes */
 .titulo-estantes {
     margin-left: 450px;
-    margin-top: 140px;
+    margin-top: 120px;
     color: #E5E8B6; /* Cor do texto */
     font-family: 'Hahmlet', serif; /* Define a fonte para o título das estantes */
 }
 
 /* Estilo para a barra de navegação */
 #nav {
+    
     position: fixed;
 	top: 0;
 	width: 100%;
@@ -103,7 +103,6 @@ body {
     margin-left: 75px;
 
 }
-
 /* Efeito de hover para marca e botões das estantes */
 .navbar-brand:hover,
 .estante-btn:hover,
@@ -176,10 +175,13 @@ img {
     background-color: #dc3545;
     color: #fff;
     border: none;
-    padding: auto;
+    padding: 10px 15px; /* Ajuste o padding conforme necessário */
     border-radius: 4px;
     cursor: pointer;
-    
+    position: fixed;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    right: 20px; /* Ajuste a distância da direita conforme necessário */
+    box-sizing: border-box; /* Inclui o padding na largura total do botão */
 }
 
 /* Efeito de hover para o botão de remoção do livro */
