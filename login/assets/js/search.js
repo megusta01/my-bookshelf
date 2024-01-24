@@ -147,7 +147,7 @@ function search(e) {
         
           const addToQrLer = document.createElement("button"); //add a quero ler
           addToQrLer.classList.add("add-to-shelf-btn", "btn", "btn-outline-primary");
-          addToQrLer.textContent = "Adicionar à quero ler ";
+          addToQrLer.textContent = "Adicionar à pretendo ler ";
           addToQrLer.addEventListener("click", (e) => {
             adicionarNaEstante3(res.items[i].volumeInfo);
           });
