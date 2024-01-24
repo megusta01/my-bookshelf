@@ -7,16 +7,17 @@ body {
     background-color: #7D869C; /* Cor de fundo */
     margin: 0;
     padding: 0;
-    display: flex;
+ 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
   
 }
 
 /* Estilo para o título das estantes */
 .titulo-estantes {
-    margin-top: 80px;
+    margin-left: 450px;
+    margin-top: 140px;
     color: #E5E8B6; /* Cor do texto */
     font-family: 'Hahmlet', serif; /* Define a fonte para o título das estantes */
 }
@@ -129,16 +130,20 @@ body {
     color: #586994;
 }
 
+
+
 /* Estilo para o container */
 .container {
-    max-width: 550px;
-    margin: 30px;
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 35px;
 }
 
 /* Estilo para o cartão de livro */
 .livro-card {
-    display: flex;
-    align-items: center;
+    display: grid;
+    flex-wrap: wrap;
     background-color: #E3E2E9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -184,9 +189,10 @@ img {
     background-color: #dc3545;
     color: #fff;
     border: none;
-    padding: 8px 16px;
+    padding: auto;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 /* Efeito de hover para o botão de remoção do livro */
